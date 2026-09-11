@@ -25,6 +25,8 @@ function update() {
 
 function draw() {
     context.clearRect(0, 0, canvas.width, canvas.height);//clear out drawing
+    context.fillStyle = "#4B9CD3"; //carolina Blue!
+    context.fillRect(0, 0, canvas.width, canvas.height); //fill backgournd with color
 
     context.save();
     context.translate(xsun, ysun);
